@@ -1,0 +1,19 @@
+#main-container {
+    min-width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #a0e461;
+}
+
+h1 {
+    text-align: center;
+}
+
+#toggle-btn {
+    display: block;
+    margin: auto;
+    width: 80px;
+    height: 40px;
+    border-radius: 10px;
+    font-weight: bold;
+}
