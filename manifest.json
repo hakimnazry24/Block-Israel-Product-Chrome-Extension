@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "Block Israel Products",
     "version": "1.0",
-    "description": "A simple Chrome extension example.",
+    "description": "Block boycotted products from your favourite shopping platform such as Shopee and Lazada",
     "permissions": ["storage", "tabs", "activeTab", "scripting"],
     "content_scripts": [
       {
