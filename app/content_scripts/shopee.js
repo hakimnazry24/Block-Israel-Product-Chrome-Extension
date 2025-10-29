@@ -7,6 +7,11 @@ async function main() {
 async function runFilter() {
   const boycottedBrands = await _fetchBoycottItemList();
 
+  filterSearchPage(boycottedBrands);
+  filterHomePageRecommendation(boycottedBrands);
+}
+
+function filterSearchPage(boycottedBrands) {
   const listItems = Array.from(
     document.querySelectorAll("ul .shopee-search-item-result__item")
   );
@@ -25,6 +30,20 @@ async function runFilter() {
     }
   });
 }
+
+function filterHomePageRecommendation(boycottedBrands) {
+  const itemDivs = Array.from(document.querySelectorAll(".oMSmr0"));
+  itemDivs.forEach((itemDiv) => {
+    const itemEl = itemDiv.querySelector("div .line-clamp-2");
+    const itemName = itemEl.textContent.toLowerCase().trim();
+    const matched = boycottedBrands.some((brand) => itemName.includes(brand));
+    if (matched) {
+      itemDiv.style.pointerEvents = "none";
+      itemDiv.style.opacity = 0.01;
+    }
+  });
+}
+
 async function _fetchBoycottItemList() {
   const url = chrome.runtime.getURL("boycott_list.txt");
   const res = await fetch(url);

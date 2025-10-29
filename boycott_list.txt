@@ -12,3 +12,6 @@ maggi
 lipton
 milo
 fanta
+tropicana
+twister
+gatorade
