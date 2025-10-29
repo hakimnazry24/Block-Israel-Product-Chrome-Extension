@@ -1,4 +1,4 @@
-# 🛒 Shopee Boycott Buddy 🐰
+# 🛒 Block Israel Product Chrome Extension 🍉
 
 ## Overview
 
@@ -9,7 +9,7 @@ This little Chrome extension helps you **shop smart and ethically** by hiding pr
 
 ## 🌟 Purpose
 
-Shopee Boycott Buddy is here to:
+The extension is here to:
 
 * ❌ Block products from boycotted brands.
 * 👀 Make it super easy to see which items to skip.
@@ -51,8 +51,6 @@ chrome://extensions/
 
 ## 💌 Contribution Suggestions
 
-Want to make Shopee Boycott Buddy even cuter and more helpful? Here’s how:
-
 1. **Expand to other shops**
 
    * Lazada, Amazon, Alibaba… the sky’s the limit! 🚀
@@ -72,6 +70,4 @@ Want to make Shopee Boycott Buddy even cuter and more helpful? Here’s how:
    * Optimize scroll handling so your browser stays speedy. ⚡
 
 ---
-
-Thanks for helping make shopping on Shopee **fun, safe, and ethical**! 💖
-Happy shopping! 🛍️🐰
+FREE PALESTINE 🍉🍉🍉
