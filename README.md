@@ -22,7 +22,7 @@ The extension is here to:
 1. **Grab the extension files**
 
 ```bash
-git clone https://github.com/yourusername/shopee-boycott-buddy.git
+https://github.com/hakimnazry24/Block-Israel-Product-Chrome-Extension.git
 ```
 
 2. **Open Chrome Extensions**
