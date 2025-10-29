@@ -1,17 +1,20 @@
 {
     "manifest_version": 3,
-    "name": "My Extension",
+    "name": "Block Israel Products",
     "version": "1.0",
     "description": "A simple Chrome extension example.",
-    "action": {
-      "default_popup": "app/action/action.html"
-    },
     "permissions": ["storage", "tabs", "activeTab", "scripting"],
     "content_scripts": [
       {
         "matches": ["*://*.shopee.com.my/*"], 
         "js": ["app/content_scripts/shopee.js"],         
         "run_at": "document_idle"
+      }
+    ],
+    "web_accessible_resources": [
+      {
+        "resources": ["boycott_list.txt"],
+        "matches": ["<all_urls>"]
       }
     ]
   }
