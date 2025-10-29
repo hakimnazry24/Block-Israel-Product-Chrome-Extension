@@ -3,7 +3,7 @@
     "name": "Block Israel Products",
     "version": "1.0",
     "description": "Block boycotted products from your favourite shopping platform such as Shopee and Lazada",
-    "permissions": ["storage", "tabs", "activeTab", "scripting"],
+    "permissions": ["scripting"],
     "content_scripts": [
       {
         "matches": ["*://*.shopee.com.my/*"], 

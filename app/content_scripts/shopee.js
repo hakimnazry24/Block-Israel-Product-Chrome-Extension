@@ -1,6 +1,12 @@
-async function main() {
-  window.addEventListener("scroll", async () => {
-    await runFilter();
+function main() {
+  runFilter();
+
+  let scrollTimeout;
+  window.addEventListener("scroll", () => {
+    clearTimeout(scrollTimeout);
+    scrollTimeout = setTimeout(() => {
+      runFilter();
+    }, 200);
   });
 }
 
